@@ -76,7 +76,9 @@ class Form_Authorized_Employee(QMainWindow):
                 port=3306,
                 user='root',
                 password='25072004',
-                database='course_project'
+                database='data_control',
+                charset = 'utf8mb4',
+                collation = 'utf8mb4_unicode_ci'
             )
             # Закрываем форму после подключения
             self.close()
