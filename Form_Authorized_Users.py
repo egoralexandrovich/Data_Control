@@ -25,12 +25,12 @@ class Form_Authorized_Users(QMainWindow):
         self.lineE_password.setText("yulechka1998")
 
         # Установка цвета фона для формы
-        self.setStyleSheet("background-color: BurlyWood;")
+        self.setStyleSheet("background-color: deepskyblue;")
 
         # Работа с дизайном формы
         border = "2px"
         border_radius = "10px"
-        border_color = "Wheat"
+        border_color = "azure"
 
         # Работа с lineEdit
         self.lineE_login.setStyleSheet(f"border: {border} solid {border_color}; border-radius: {border_radius};")

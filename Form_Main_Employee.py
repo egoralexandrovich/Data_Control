@@ -27,12 +27,12 @@ class Form_Main_Employee(QMainWindow):
 
     def Design_Form_Main(self):
         # Установка цвета фона для формы
-        self.setStyleSheet("background-color: BurlyWood;")
+        self.setStyleSheet("background-color: deepskyblue;")
 
         # Работа с дизайном формы
         border = "2px"
         border_radius = "10px"
-        border_color = "Wheat"
+        border_color = "azure"
 
         # Работа с lineEdit
         self.lineE_NameTable.setStyleSheet(f"border: {border} solid {border_color}; border-radius: {border_radius};")
@@ -86,7 +86,7 @@ class Form_Main_Employee(QMainWindow):
         self.table_Info.resizeRowsToContents()
 
         # Устанавливаем цвет фона для таблицы
-        self.table_Info.setStyleSheet("background-color: BurlyWood")
+        self.table_Info.setStyleSheet("background-color: azure")
 
     def LoadData_in_Table(self):
         try:
